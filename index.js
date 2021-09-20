@@ -12,7 +12,7 @@ app.use(cors());
 app.use('/users',route);
 
 const PORT=8000;
-const URL='mongodb+srv://user:mChm9CTbuc7XKKBp@crud.cecoo.mongodb.net/CRUDAPP?retryWrites=true&w=majority';
+const URL='';
 
 mongoose.connect(URL,{
     useNewUrlParser:true,
